@@ -50,4 +50,4 @@ new=Image.fromarray(new)
 new=new.convert('RGB')
 new.save("Iprime.jpg")
 new.show()
-new.show()
+
