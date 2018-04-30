@@ -45,6 +45,9 @@ while(epoch==1 or epoch<limit):
 new=np.zeros((300,400))
 new=(EP-(w1*k1)-(w2*k2))/w3
 
-
+"""save and print answer"""
 new=Image.fromarray(new)
+new=new.convert('RGB')
+new.save("Iprime.jpg")
+new.show()
 new.show()
