@@ -28,7 +28,7 @@ e=np.zeros((300,400))
 while(epoch==1 or epoch<limit):
     for w in range(0,299):
         for h in range(0,399):
-        """ a(k)= k1*w1 + k2*w2 +k3*w3  """
+         """a(k)=w1*k1+w2*k2+w3*I"""
          a[w,h]=(k1[w,h]*w1)+(k2[w,h]*w2)+(k3[w,h]*w3)
          """e(k)=E(k)-a(k)"""
          e[w,h]=E[w,h]-a[w,h]
