@@ -58,6 +58,10 @@
 * 訓練過程
 
   ![Process](https://github.com/jt851113/ML2018_410421233/blob/master/photo/PROCESS.JPG)
+
+* 最後結果
+  ![FINAL](https://github.com/jt851113/ML2018_410421233/blob/master/photo/final.JPG)
+  算不上好而且還有很大進步空間，大概要透過SVM的設置來改善
   
 ### 雜談:
 這次不算太難，主要是調整pca降維那邊很難調整，若狀況允許，當然直接扁平化是最好，這樣能夠保留完整的特徵值
