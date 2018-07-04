@@ -29,6 +29,7 @@ print('start training\n')
 clf = SVC(verbose=1)
 clf.fit(new_mnist[:split],mnist.target[:split])
 print('start count acc\n')
+expected = mnist.target[split:]
 predicted = clf.predict(new_mnist[split:])
 print("Classification report for classifier %s:\n%s\n"
-    % (clf, metrics.classification_report(mnist.target[split:], new_mnist[split:])))
+    % (clf, metrics.classification_report(expected, predicted)))
