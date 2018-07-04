@@ -55,6 +55,7 @@
 * 有試過把PCA的N_COMPONENT參數調為1，明顯沒用，完全沒學習到
   ![FAIL](https://github.com/jt851113/ML2018_410421233/blob/master/photo/FAIL.png)
 * 訓練過程
+
   ![Process](https://github.com/jt851113/ML2018_410421233/blob/master/photo/PROCESS.JPG)
   
 ### 雜談:
